@@ -1,5 +1,8 @@
 🌐 URL Shortener with Spring Boot & H2 Database
+
 This is a simple URL Shortener application built using Spring Boot that allows users to shorten long URLs and redirect using the shortened version. It uses an H2 in-memory database to store URL mappings.
+
+---
 
 🚀 Features
 Shortens long URLs to a compact form.
@@ -7,6 +10,8 @@ Redirects short URLs to their original long URLs.
 Uses REST API (POST & GET methods).
 Stores data in an in-memory H2 Database (no manual DB setup required).
 Easily extendable for production use.
+
+---
 
 🛠 Technologies Used
 Java 17+
@@ -46,9 +51,13 @@ SHORT_ID   ORIGINAL_URL
 4e181f     https://www.example.com 
 (1 row, 2 ms)
 
+---
+
 🙌 Author 
 Madhuri JCM 
 🔗 GitHub: github.com/MadhuriJCM
+
+---
 
 📄 License 
 This project is open-source and available under the MIT License.
