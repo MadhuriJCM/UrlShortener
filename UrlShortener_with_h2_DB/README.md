@@ -35,7 +35,9 @@ This is a simple **URL Shortener** application built using **Spring Boot** that 
 Build & run the Spring Boot app:
 
 ## 📬 Example Usage
-
+1. In The browser it will open
+   URL: https://b3f63434-68e1-4273-960e-4dd26007fc60-00-1c1yhojzbn7gk.sisko.replit.dev/
+   
 1. In Terminal first shorten the original url using POST api/endpoint
    curl -X POST http://localhost:8080/shorten -H "Content-Type: application/json" -d '{"url":"https://www.example.com"}'
 2. It will generate the Shorten URL like
